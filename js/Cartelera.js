@@ -51,7 +51,7 @@ const renderNewsMovies = async (page) => {
 }
 
 const renderControls = (page) => {
-    const baseUrlPage = "../Cartelera.html?page=";
+    const baseUrlPage = "./Cartelera.html?page=";
     const pageNumber = parseInt(page);
     const previus = pageNumber - 1;
     const next = pageNumber + 1;
