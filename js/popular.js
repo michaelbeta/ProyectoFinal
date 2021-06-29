@@ -84,7 +84,7 @@ const renderControls = (page) => {
         `;
     } else {
         html = `
-            <ul class="pagination justify-content-center">
+            <ul class="pagination justify-content-center ">
                 <li class="page-item">
                     <a class="page-link" href="${baseUrlPage + previus}">
                         <i class="fas fa-chevron-left"></i>
