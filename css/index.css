@@ -41,3 +41,10 @@
     height: 70px;
     border-radius: 50px;
 }
+.header{
+    background-color: rgba(4, 32, 77, 0.829);
+}
+.container{
+    background-color: rgba(8, 17, 24, 0.938);
+
+}

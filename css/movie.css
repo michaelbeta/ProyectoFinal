@@ -76,3 +76,10 @@
     font-size: 50px;
     font-weight: bold;
 }
+.header{
+    background-color: rgba(4, 32, 77, 0.829);
+}
+.container{
+    background-color: rgba(8, 17, 24, 0.938);
+
+}

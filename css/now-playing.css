@@ -12,3 +12,14 @@
 #now-playing .col-custom {
     padding: 20px;
 }
+.header{
+    background-color: rgba(4, 32, 77, 0.829);
+}
+.container{
+    background-color: rgba(8, 17, 24, 0.938);
+
+}
+.container2{
+    background-color: rgba(4, 32, 77, 0.829);
+
+}
