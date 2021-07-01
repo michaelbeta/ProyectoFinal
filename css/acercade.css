@@ -1,0 +1,106 @@
+footer {
+    background-color: orange;
+    overflow:hidden;
+  
+  }
+  .logo{
+    width: 60px;
+    height: auto;
+    margin: 5px;
+    float: left;
+  }
+  
+  .menuitem {
+    display: inline-block;
+    margin: 5px;
+  }
+  .menulink {
+    text-decoration: none;
+  }
+  .menulink:hover {
+    color: white;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  .subtitle {
+    float:left;
+  }
+  
+  .title {
+    margin-bottom: 0;
+  }
+  .subtitle {
+    margin-top: 0;
+    float:left;
+  }
+  .copyright {
+    text-align: center
+  }
+
+
+  .btn-contact {
+    border: 1px solid #0089B8;
+    padding: .5rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #0089B8;
+    font-weight: bold;
+}
+
+.info {
+    max-width: 600px;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.menu ul li a {
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+  
+  @media screen and (max-width: 700px) {
+      .btnmenu {
+          position: absolute;
+          top: 25px;
+          right: 15px;
+      }
+      .menu, .subtitle {display: none;}
+  }
+  
+  @media screen and (min-width: 701px) {
+      .btnmenu {
+          display: none;
+      }
+      #menu, #subtitle {display: block !important;}
+  }
+  
+  
+  .container {
+    margin: 0 5px;
+  }
+  @media screen and (min-width:701px) {
+    .container {
+      width: 690px;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (min-width:1001px) {
+    .container {
+      width: 990px;
+    }
+  }
+  
+  @media screen and (min-width:1201px) {
+    .container {
+      width: 1190px;
+    }
+  }
