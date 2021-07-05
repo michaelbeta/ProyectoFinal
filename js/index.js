@@ -76,3 +76,8 @@ const renderListMovies = async (type, classLoc) => {
     })
 
 }
+
+     
+
+
+
