@@ -16,7 +16,7 @@ const searchMovies = async () => {
     const urlImage = `https://image.tmdb.org/t/p/w500${poster_path}`;
 
     html += `
-        <div class="col-4 custom-card">
+    <div class="col-sm-6 col-md-4 custom-card">
             <div class="card">
                 <div class="row no-gutters">
                     <div class="col-md-4">
