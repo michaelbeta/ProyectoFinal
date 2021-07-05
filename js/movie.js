@@ -66,6 +66,7 @@ const renderMovieData = (title, overview, genres, relese_date) => {
         <h5>Generos</h5>
         <ul>
             ${htmlGenres}
+            <br><br><br><br><br>
         </ul>
     `;
     document.getElementsByClassName('movie-info__data')[0].innerHTML = html;
