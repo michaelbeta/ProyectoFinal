@@ -1,3 +1,8 @@
+let names = document.querySelector('#names');
+let phone = document.querySelector('#phone');
+let email = document.querySelector('#email');
+const mensaje = document.querySelector('#mensaje');
+
 $(document).ready(function(){
 
     $('#btnSend').click(function(){
@@ -39,12 +44,27 @@ $(document).ready(function(){
                                 '</div>'
 
             $('body').append(mensajeModal);
+        }else{
+            var mensajeModal = '<div class="modal_wrap">'+
+            '<div class="mensaje_modal">'+
+                '<h3>Mensaje Enviado</h3>'+
+                
+                '<span id="btnClose">Cerrar</span>'+
+            '</div>'+
+        '</div>'
+
+$('body').append(mensajeModal);
+
+    
+
         }
 
         // CERRANDO MODAL ==============================
         $('#btnClose').click(function(){
             $('.modal_wrap').remove();
+            document.getElementById("email").val="";
         });
     });
 
 });
+

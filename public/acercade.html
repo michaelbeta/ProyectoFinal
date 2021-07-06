@@ -60,60 +60,66 @@
 </nav>
 
 </header>
+<section >
 
-  <div class=" md:mt-5" >
-    <section class="form_wrap">
+ <div class="sm: block md:flex">
+<div class=" imagendefondo bg-white p-8 md:w-1/2s md:w-full ">
+<h2 class="font-bold text-center text-2xl">Acerca de </h2>
+<p class="mb-5 text-lg">
 
-      <section class="cantact_info md:col-6 sm:none ">
-          <section class="info_title">
-              <span class="fa fa-user-circle"></span>
-              <h2 class="text-black">Acerca de <br></h2>
-          </section>
-          <section class="info_items">
-         
-              
-               <p class="text-lg-center text-black">
-                Este proyecto del curso de IF7102- Multimedios tiene como propósito, el de realizar una aplicación web que consuma una API proveniente de la pagina https://www.themoviedb.org, para evidenciar el manejo de los lenguajes de programación tales como, HTML, CSS, JAVASCRIPT, PHP, entre otros.
-                Además, se le presentara un formulario con el fin de facilitarle al usuario un medio de comunicación que le permita al mismo enviar cualquier consulta referente al uso de la pagina Web. 
-                
-                 
-               </p>
-                
-              
-              
-              </p>
-          </section>
-      </section>
-    </section>
-      <form action="enviar.php" method="post" class="form_contact md:col-6 ">
-        <h2 class="text-md-center">Contactenos</h2>
-          <h4>Envia un mensaje</h4>
-          <div class="user_info">
-              <label for="names">Nombres *</label>
-              <input type="text" id="names" name="nombre" required>
+  Este proyecto del curso de IF7102- Multimedios tiene como propósito, el de realizar una aplicación web que consuma una
+   API proveniente de la pagina https://www.themoviedb.org, para evidenciar el manejo de los lenguajes de programación tales como, HTML, CSS, JAVASCRIPT, PHP, entre otros.
+  Además, se le presentara un formulario con el fin de facilitarle al usuario un medio de comunicación que le permita al mismo enviar cualquier consulta referente al uso de la pagina Web.
 
-              <label for="phone">Telefono / Celular</label>
-              <input type="text" id="phone" name="telefono">
-
-              <label for="email">Correo electronico *</label>
-              <input type="text" id="email" name="correo" required>
-
-              <label for="mensaje">Mensaje *</label>
-              <textarea id="mensaje" name="mensaje" required></textarea>
-
-              <input type="submit" value="Enviar Mensaje" id="btnSend">
-          </div>
-      </form>
-
-  
+</p>
 </div>
-<div class="grid grid-rows-3 grid-flow-col gap-4 container">
+<div class="bg-white sm:pl-15 md:p-8 md:w-1/2s md:w-full">
+ 
+  <h2 class="font-bold text-2xl ml-6 mb-3 text-center ">Contactenos</h2>
+
+    <div class="inline-block  ">
+      <div class="pl-16">
+        <label for="names" class="">Nombres *</label>
+        <br>
+        <input type="text" id="names" name="nombre" required class="border-2 ml-5 ">
+        </div>
+         <br>
+        <div class="pl-16">
+        <label for="phone" class="">Telefono / Celular  </label>
+        <br>
+        <input type="text" id="phone" name="telefono" class="border-2  ml-5 ">
+        </div >
+         <br>
+        <div class="pl-16">
+
+        <label for="email" class="">Correo electronico *</label>
+        <br>
+        <input type="text" id="email" name="correo" required class="border-2   ml-5">
+        </div >
+         <br>
+        <div class="pl-16">
+
+        <label for="mensaje" class="">Mensaje *</label>
+        <br>
+        <textarea id="mensaje" name="mensaje" required class="border-2  ml-5 "></textarea>
+        </div>
+      <div class="pl-16 ">
+        <br>
+        <input type="submit" value="Enviar Mensaje" id="btnSend" class="  ml-9 header rounded-lg pl-2 pr-2 ">
+       <br><br>
+       </div>
+    </div>
+
+</div>
+
+</div>
+<div class="grid grid-rows-3 grid-flow-col gap-4 container  pt-6">
 
   <div class="row-span-2 col-span-2 md:col-6  ">
-    <p class="text-xl-center text-white">
-      Desarrolladores del sitio Web.
+    <h2 class="text-center text-white font-bold">
+      Desarrolladores del sitio Web.</h2>
       <br><br>
-
+<p class="text-center text-white"  >
       Michael Betancourt Mora - B81126
   
       <br>
@@ -127,12 +133,14 @@
     
   </div>
 </div>
+</section>
 
+ 
 
    
 <footer class="sm:hidden grid grid-cols-4 justify-between
-                            justify-items-center fixed bottom-0 w-full h-10
-                            ">
+                            justify-items-center fixed bottom-0 w-full h-10 header
+                            pt-1">
 
     <div class="pr-2">
     <a href="./Peliculas_Nuevas.html"><svg xmlns="http://www.w3.org/2000/svg" class="h-6
@@ -162,7 +170,7 @@
     </a>
     </div>
     <div class="pr-2">
-    <a  href="#" > <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0
+    <a  href="./acercade.html" > <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0
                                       24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12
                                         14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
