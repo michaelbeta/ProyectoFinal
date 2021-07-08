@@ -52,6 +52,10 @@ $(document).ready(function(){
                 '<span id="btnClose">Cerrar</span>'+
             '</div>'+
         '</div>'
+        document.getElementById("email").value="";
+            document.getElementById("mensaje").value="";
+            document.getElementById("phone").value="";
+            document.getElementById("names").value="";
 
 $('body').append(mensajeModal);
 
@@ -62,7 +66,7 @@ $('body').append(mensajeModal);
         // CERRANDO MODAL ==============================
         $('#btnClose').click(function(){
             $('.modal_wrap').remove();
-            document.getElementById("email").val="";
+            
         });
     });
 
