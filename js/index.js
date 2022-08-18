@@ -25,7 +25,7 @@ const renderNewsMovies = async () => {
     newMovies.forEach((movie, index) => {
         const { id, title, overview, backdrop_path } = movie;
         const urlImage = `https://image.tmdb.org/t/p/original${backdrop_path}`;
-        const urlMovie = `public./movie.html?id=${id}`;
+        const urlMovie = `public/movie.html?id=${id}`;
 
 
         html += `
@@ -61,7 +61,7 @@ const renderListMovies = async (type, classLoc) => {
     movies.forEach((movie, index) => {
         const { id, title, poster_path } = movie;
         const movieCover = `https://image.tmdb.org/t/p/w500${poster_path}`;
-        const urlMovie = `public./movie.html?id=${id}`;
+        const urlMovie = `public/movie.html?id=${id}`;
 
         if (index < 5) {
             html += `
